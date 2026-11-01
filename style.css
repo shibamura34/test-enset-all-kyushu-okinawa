@@ -1,0 +1,294 @@
+﻿:root{--navy:#07275a;--deep:#061b40;--blue:#164ec1;--green:#a6d74d;--ink:#122b48;--muted:#52687a;--paper:#f5f7f5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;line-height:1.8;background:#fff}a{color:inherit}a:focus-visible{outline:3px solid #f7a837;outline-offset:4px}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.header{background:#fff}.header-inner{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:14px;text-decoration:none}.brand-en{font:bold 40px/1 Arial;color:#56a340;letter-spacing:-.07em}.brand-en span{color:var(--blue)}.brand-name{border-left:1px solid #cbd4de;padding-left:14px;font-size:15px;font-weight:800;line-height:1.35}.brand-name small{font-size:12px}.header nav{display:flex;gap:30px;font-weight:700;font-size:15px}.header nav a{text-decoration:none}.header nav a:hover{color:var(--blue)}.hero{background:var(--navy);color:#fff;overflow:hidden}.hero-inner{position:relative;min-height:530px;padding-block:72px}.eyebrow{font:700 12px/1.6 Arial,sans-serif;letter-spacing:.15em;color:#b8e36a}.hero-label{font-weight:700;letter-spacing:.15em;margin:48px 0 13px}.hero h1{font-size:40px;letter-spacing:.02em;line-height:1.25;margin:0;font-weight:900}.hero h1 em{font-style:normal;color:#c9ec68}.hero-copy{font-size:17px;font-weight:700;margin:24px 0 30px}.button{display:inline-flex;align-items:center;gap:36px;padding:13px 20px;background:#fff;color:var(--navy);font-weight:800;font-size:15px;text-decoration:none}.button span{font-size:17px}.hero-mark{position:absolute;width:440px;height:440px;right:0;top:40px;border:1px solid #ffffff45;border-radius:50%;display:flex;align-items:center;justify-content:center;gap:20px;font-size:40px;font-weight:900;color:#ffffffd9}.hero-mark:before,.hero-mark:after{content:"";position:absolute;inset:22px;border:1px solid #a6d74d80;border-radius:50%}.hero-mark:after{inset:47px;border-color:#ffffff25}.hero-mark i{color:var(--green);font-style:normal;font-weight:400}.hero-mark small{position:absolute;bottom:105px;font:700 12px Arial;letter-spacing:.2em;color:#b8e36a}.partners{background:#edf3ed;border-bottom:1px solid #dce6df}.partners-inner{display:grid;grid-template-columns:150px 1fr 1fr;align-items:center;gap:28px;padding-block:20px}.partners-inner>span{font:700 12px Arial;letter-spacing:.13em;color:#568149}.partners p{margin:0;font-size:15px;font-weight:800}.partners small{font-size:12px}.section{padding-block:95px}.section-heading{display:grid;grid-template-columns:1fr .65fr;gap:48px;align-items:end;margin-bottom:38px}.section-heading h2{font-size:40px;line-height:1.4;letter-spacing:.03em;margin:9px 0 0}.section-heading>p{color:var(--muted);margin:0;font-size:17px}.dark{color:#548b40}.people-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.people-card{padding:32px 36px;color:#fff;min-height:390px;display:flex;flex-direction:column}.system{background:#bf4a36}.core{background:#174ca9}.card-top{display:flex;justify-content:space-between;align-items:center;font:700 12px Arial;letter-spacing:.12em}.card-symbol{font-size:40px;font-weight:400}.card-tag{font-size:12px;font-weight:700;margin:22px 0 7px}.people-card h3{font-size:40px;line-height:1.3;margin:0}.people-card>p:not(.card-tag){max-width:410px;font-size:15px;color:#ffffffdc}.hub{border-top:1px solid #ffffff69;margin-top:auto;padding-top:18px;display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}.hub small{font-size:12px}.hub strong{font-size:17px}.hub span{font:700 12px Arial;letter-spacing:.1em;opacity:.75}.network{background:var(--paper)}.network-layout{display:grid;grid-template-columns:1fr 1fr;gap:25px}.map-panel{position:relative;background:#e0efe5;min-width:0;padding:28px;text-align:center;overflow:hidden}.map-panel img{display:block;width:min(100%,470px);margin:0 auto;mix-blend-mode:multiply}.map-kicker{text-align:left;margin:0;color:#467653;font:700 12px Arial;letter-spacing:.15em}.map-caption{font-size:12px;color:#526b60;margin:0 8px}.university-panel{background:#fff;padding:30px 34px}.list-heading{display:flex;justify-content:space-between;align-items:center}.list-heading span{font:700 12px Arial;letter-spacing:.15em;color:#548b40}.list-heading h3{font-size:30px;margin:3px 0}.list-heading .count{font:bold 40px Arial;color:#e5eee8}.university-panel>p{font-size:12px;color:var(--muted)}.universities{padding:0;margin:20px 0;list-style:none;border-top:1px solid #dfe7e4}.universities a{display:flex;align-items:center;gap:20px;border-bottom:1px solid #dfe7e4;padding:10px 2px;text-decoration:none;font-weight:700}.universities a:hover{color:var(--blue)}.universities span{font:700 12px Arial;color:#6a9d62}.universities b{margin-left:auto;color:var(--blue)}.hub-links{font-size:12px;font-weight:700}.hub-links a{color:var(--blue)}.region-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #cddbd2;border-left:1px solid #cddbd2}.region-grid article{padding:24px;min-height:140px;border-right:1px solid #cddbd2;border-bottom:1px solid #cddbd2}.region-grid span{font:700 12px Arial;color:#5e9461;letter-spacing:.15em}.region-grid h3{font-size:15px;line-height:1.65;margin:12px 0 0}.closing{padding:80px 0;background:var(--navy);color:#fff}.closing h2{font-size:40px;line-height:1.35;margin:15px 0}.closing p:not(.eyebrow){color:#e0ebf3}.closing a{display:inline-block;margin-top:12px;color:#c9ec68;font-weight:700;text-underline-offset:6px}footer{background:var(--deep);color:#fff}.footer-inner{display:flex;align-items:center;gap:25px;padding-block:24px;font-size:12px}.footer-inner p{margin:0}.footer-inner strong{font:700 30px Arial;color:#b8e36a}.footer-inner small{color:#9fb3c7}.footer-inner a{margin-left:auto}@media(max-width:850px){.hero-mark{opacity:.2;right:-160px}.hero-inner>*:not(.hero-mark){position:relative;z-index:1}.partners-inner{grid-template-columns:1fr 1fr}.partners-inner>span{grid-column:1/-1}.region-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.wrap{width:calc(100% - 32px)}.header-inner{padding-block:16px;flex-wrap:wrap}.header nav{gap:18px;font-size:12px;overflow-x:auto;white-space:nowrap}.hero-inner{min-height:0;padding-block:60px}.hero-label{margin-top:34px}.hero-mark{width:340px;height:340px;top:80px;right:-210px;font-size:40px}.partners-inner{grid-template-columns:1fr;gap:8px}.partners-inner>span{grid-column:auto}.section{padding-block:64px}.section-heading,.people-grid,.network-layout{grid-template-columns:1fr}.section-heading{gap:15px}.people-card{min-height:340px;padding:28px}.map-panel{padding:20px}.university-panel{padding:24px}.region-grid article{padding:16px;min-height:115px}.footer-inner{align-items:flex-start;flex-direction:column;gap:8px}.footer-inner a{margin-left:0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.map-panel .network-figure{display:block;width:100%;max-width:none;height:auto;margin:16px auto 0;mix-blend-mode:normal}
+
+/* ネットワーク図を主役にし、大学リンクを下段にまとめる。 */
+.hero-inner{min-height:0;padding-block:48px}
+.hero-label{margin-top:28px}
+.hero-mark{width:360px;height:360px;top:25px}
+.hero-mark small{bottom:82px}
+.network.section{padding-block:48px}
+.network .section-heading{margin-bottom:20px}
+.network-layout{display:flex;flex-direction:column;gap:18px}
+.map-panel{width:80%;margin-inline:auto;padding:12px;background:#fff}
+.map-panel .network-figure{margin:8px auto 0}
+.university-panel{padding:20px 24px}
+.list-heading h3{font-size:17px}
+.list-heading .count{font-size:30px}
+.university-panel>p{margin:4px 0;font-size:12px}
+.universities{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 20px;margin:12px 0}
+.universities a{gap:8px;padding:8px 2px;font-size:15px}
+.hub-links{font-size:12px}
+@media(max-width:650px){.hero-inner{padding-block:38px}.hero-mark{width:300px;height:300px;top:40px}.network.section{padding-block:36px}.map-panel{width:100%;padding:8px}.universities{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px}.university-panel{padding:16px}.universities a{font-size:12px}}
+
+/* 図と大学一覧は別の段に置く。 */
+.network-layout{display:block}
+.network-layout .map-panel{width:100%;margin:0 auto}
+.network .university-panel{margin:18px auto 0}
+
+/* ヘッダー直下の青帯をコンパクトにする。 */
+.hero-inner{padding-block:24px}
+.hero-label{margin:12px 0 5px}
+.hero h1{font-size:40px;line-height:1.18}
+.hero-copy{margin:12px 0 16px}
+.hero-mark{width:270px;height:270px;top:50%;transform:translateY(-50%);font-size:40px}
+.hero-mark small{bottom:56px}
+@media(max-width:650px){.hero-inner{padding-block:24px}.hero h1{font-size:40px}.hero-mark{width:240px;height:240px;top:50%;right:-160px;font-size:30px}.hero-mark small{bottom:50px}}
+@media(max-width:650px){.hero .eyebrow{overflow-wrap:anywhere}}
+
+/* 大学リンクは画像と同じ座標系で拡大・縮小する。 */
+.network-instruction{margin:4px 0 0;text-align:right;font-size:12px;color:var(--muted)}
+.network-figure-wrap{position:relative;width:100%;margin:8px auto 0}
+.map-panel .network-figure-wrap .network-figure{width:100%;height:auto;margin:0}
+.figure-link{position:absolute;display:block;border-radius:4px}
+.figure-link:hover,.figure-link:focus-visible{outline:3px solid #f28a19;outline-offset:1px;background:rgb(255 255 255 / .16)}
+.figure-link.kyushu{left:16%;top:12%;width:19%;height:8%}
+.figure-link.kyutech{left:64%;top:12%;width:29%;height:8%}
+.figure-link.saga{left:12%;top:34%;width:16%;height:7%}
+.figure-link.nagasaki{left:7%;top:51%;width:17%;height:7%}
+.figure-link.kumamoto{left:7%;top:71%;width:17%;height:7%}
+.figure-link.oita{left:79%;top:39%;width:17%;height:7%}
+.figure-link.miyazaki{left:78%;top:52%;width:17%;height:7%}
+.figure-link.kagoshima{left:72%;top:69%;width:20%;height:7%}
+.figure-link.ryukyu{left:60%;top:81%;width:17%;height:7%}
+
+/* 承認されたロゴ画像をヘッダーに表示する。 */
+.brand-logo{display:block;width:220px;height:auto;flex:none}
+@media(max-width:650px){.brand{min-width:0}.brand-logo{width:150px}.brand-name{font-size:12px}.brand-name small{font-size:12px}}
+
+/* 事業名をロゴ横で読みやすく表示する。 */
+.brand-name{font-size:17px;line-height:1.45}
+.brand-name small{font-size:15px}
+@media(max-width:650px){.brand-name{font-size:17px}.brand-name small{font-size:12px}}
+
+/* 図中の人材名と紹介ページ。 */
+.figure-link.talent-system{left:10%;top:2%;width:32%;height:8%}
+.figure-link.talent-core{left:59%;top:2%;width:31%;height:8%}
+.people-detail-link{display:inline-block;color:#fff;font-weight:800;text-underline-offset:5px}
+.detail-breadcrumb{padding-block:14px;color:var(--muted);font-size:12px}
+.detail-breadcrumb a{text-underline-offset:4px}
+.detail-hero{padding-block:65px;color:#fff}
+.detail-system{background:linear-gradient(125deg,#8f3028,#bf4a36)}
+.detail-core{background:linear-gradient(125deg,#082a61,#174ca9)}
+.detail-hero .eyebrow{color:#fff;opacity:.8}
+.detail-overline{margin:28px 0 4px;font-size:17px;font-weight:700}
+.detail-hero h1{margin:0;font-size:40px;line-height:1.3}
+.detail-lead{max-width:750px;margin:20px 0 0;font-size:17px;line-height:1.9}
+.detail-intro{display:grid;grid-template-columns:1fr 1.1fr;gap:60px}
+.detail-intro h2,.detail-learning h2,.detail-next h2{margin:10px 0;font-size:40px;line-height:1.4}
+.detail-intro h3{margin:0 0 15px;font-size:17px}
+.detail-intro p:not(.eyebrow),.detail-next p:not(.eyebrow){color:var(--muted)}
+.detail-learning{background:var(--paper)}
+.detail-section-lead{color:var(--muted)}
+.detail-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:30px 0 0;padding:0;list-style:none}
+.detail-steps li{padding:26px;background:#fff;border-top:4px solid var(--blue)}
+.detail-steps span{font:700 12px Arial;letter-spacing:.12em;color:#548b40}
+.detail-steps h3{margin:12px 0;font-size:30px}
+.detail-steps p{margin:0;color:var(--muted);font-size:15px}
+.detail-next{display:flex;align-items:end;justify-content:space-between;gap:30px}
+.detail-next a{font-weight:800;color:var(--blue);text-underline-offset:5px}
+.detail-back{white-space:nowrap}
+@media(max-width:650px){.detail-hero{padding-block:42px}.detail-intro{grid-template-columns:1fr;gap:20px}.detail-steps{grid-template-columns:1fr}.detail-next{align-items:start;flex-direction:column}}
+
+/* 広域と各地域の連携団体をまとめて紹介する。 */
+.regional-partner-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:24px}
+.regional-partner-list article{padding:22px 24px;background:#edf3ed;border-left:4px solid #548b40}
+.regional-partner-list span{font:700 12px Arial;letter-spacing:.15em;color:#548b40}
+.regional-partner-list h3{margin:10px 0 0;font-size:17px;line-height:1.6}
+.regional-partner-list small{font-size:15px}
+@media(max-width:650px){.regional-partner-list{grid-template-columns:1fr;gap:10px}.regional-partner-list article{padding:16px}}
+
+/* 地域連携を読みやすくコンパクトにまとめる。 */
+#region.section{padding-block:42px}
+#region .section-heading{margin-bottom:18px;gap:24px}
+#region .section-heading h2{font-size:30px;line-height:1.3}
+#region .section-heading>p{font-size:15px}
+#region .regional-partner-list{gap:10px;margin-bottom:12px}
+#region .regional-partner-list article{padding:12px 16px}
+#region .regional-partner-list h3{margin-top:4px;font-size:15px;line-height:1.45}
+#region .region-grid article{min-height:0;padding:12px 16px}
+#region .region-grid h3{margin:4px 0 0;font-size:15px;line-height:1.5}
+@media(max-width:650px){#region.section{padding-block:30px}#region .section-heading{gap:10px;margin-bottom:14px}#region .regional-partner-list{gap:8px}#region .region-grid article{padding:10px 12px}}
+
+.detail-hub{display:flex;align-items:baseline;flex-wrap:wrap;gap:14px;margin:24px 0 0;padding-top:16px;border-top:1px solid rgb(255 255 255 / .4)}
+.detail-hub span{font-size:12px}
+.detail-hub strong{font-size:17px}
+
+/* ヘッダーと共通のロゴ・事業名を小さめに表示する。 */
+footer{background:#fff;color:var(--ink);border-top:1px solid #dce5ea}
+.footer-inner{gap:18px;padding-block:18px}
+.footer-brand{display:flex;align-items:center;gap:10px}
+.footer-brand img{display:block;width:140px;height:auto;flex:none}
+.footer-brand>span{border-left:1px solid #cbd4de;padding-left:10px;font-size:12px;font-weight:800;line-height:1.4}
+.footer-brand>span small{color:inherit;font-size:12px}
+.footer-inner>small{color:var(--muted)}
+.footer-inner>a{color:var(--blue)}
+@media(max-width:650px){.footer-inner{gap:12px}.footer-brand img{width:120px}.footer-brand>span{font-size:12px}.footer-brand>span small{font-size:12px}}
+
+/* 各ページの余白を抑え、短いスクロールで内容を読めるようにする。 */
+.section{padding-block:40px}
+.hero-inner{padding-block:16px}
+.hero-label{margin:8px 0 4px}
+.hero-copy{margin:8px 0 0}
+.network.section{padding-block:24px}
+.network .section-heading{margin-bottom:12px;gap:24px}
+.network .section-heading h2{font-size:30px;line-height:1.3}
+.network-figure-wrap{margin-top:4px}
+#region.section{padding-block:24px}
+.closing{padding-block:32px}
+.closing h2{font-size:40px;margin:8px 0}
+.closing p:not(.eyebrow){margin:8px 0}
+.closing a{margin-top:4px}
+.detail-breadcrumb{padding-block:8px}
+.detail-hero{padding-block:32px}
+.detail-overline{margin:12px 0 4px}
+.detail-lead{margin-top:12px;line-height:1.7}
+.detail-hub{margin-top:14px;padding-top:10px}
+.detail-intro{gap:32px}
+.detail-intro h2,.detail-learning h2,.detail-next h2{margin:6px 0}
+.detail-intro h3{margin-bottom:8px}
+.detail-steps{margin-top:16px;gap:12px}
+.detail-steps li{padding:18px}
+.detail-steps h3{margin:6px 0}
+@media(max-width:650px){.section{padding-block:28px}.hero-inner{padding-block:16px}.network.section,#region.section{padding-block:20px}.network .section-heading{gap:10px}.detail-hero{padding-block:24px}.detail-intro{gap:12px}.detail-steps{gap:8px}.detail-steps li{padding:14px}.closing{padding-block:26px}}
+.hero h1 em{white-space:nowrap}
+.hero h1{color:#c9ec68}
+
+/* 見出しより説明文の幅を広く確保する。 */
+@media(min-width:651px){#network .section-heading,#region .section-heading{grid-template-columns:minmax(0,3fr) minmax(0,7fr)}}
+@media(min-width:651px){#network .section-heading h2{font-size:30px}}
+
+/* 大きな見出しを一回り小さく整える。 */
+.hero h1{font-size:40px}
+#region .section-heading h2{font-size:30px}
+.closing h2{font-size:30px}
+.detail-hero h1{font-size:40px}
+.detail-intro h2,.detail-learning h2,.detail-next h2{font-size:30px}
+.detail-steps h3{font-size:17px}
+@media(min-width:651px){#network .section-heading h2{font-size:17px}}
+@media(max-width:650px){.hero h1{font-size:30px}#network .section-heading h2{font-size:30px}}
+
+/* ヘッダー内の英語名称。 */
+.brand-english{display:block;margin-top:2px;color:var(--muted);font-size:12px;font-weight:500;line-height:1.35;overflow-wrap:anywhere}
+@media(max-width:650px){.brand-english{font-size:12px}}
+
+/* ロゴ横の日本語2行を同じ大きさに揃える。 */
+.brand-name{font-size:30px;line-height:1.55}
+.brand-name small{font-size:inherit}
+.footer-brand>span{font-size:17px;line-height:1.5}
+.footer-brand>span small{font-size:inherit}
+@media(max-width:650px){.brand-logo{width:clamp(100px,30vw,150px)}.brand-name{font-size:12px;line-height:1.5}.brand-name small{font-size:inherit}.footer-brand>span{font-size:12px;line-height:1.45}.footer-brand>span small{font-size:inherit}}
+
+/* トップページの3つの見出しを画面幅ごとの最小サイズに揃える。 */
+@media(min-width:651px){#network .section-heading h2,#region .section-heading h2,.closing h2{font-size:30px}}
+@media(max-width:650px){#network .section-heading h2,#region .section-heading h2,.closing h2{font-size:30px}}
+
+#region h3 a{color:#164b85;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+#region h3 a:hover{color:#087346}
+#region h3 a::after{content:' ↗';font-size:12px;white-space:nowrap}
+
+/* enSETの概要 */
+.about-enset{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,8fr);gap:48px;align-items:start;padding-block:28px}
+.about-enset h2{font-size:30px;line-height:1.4;margin:0}
+.about-enset p{margin:0;color:var(--muted);font-size:17px;line-height:1.8}
+.about-enset a{color:#164b85;text-underline-offset:3px}
+.about-enset-link{display:inline-block;margin-top:6px;font-size:15px;font-weight:700}
+.about-enset a:hover{color:#087346}
+@media(max-width:650px){.about-enset{grid-template-columns:1fr;gap:8px;padding-block:24px}.about-enset h2{font-size:30px}}
+/* 全ページの行間を文字サイズの120%に統一。 */
+body,body *{line-height:1.2 !important}
+
+body{font-size:17px}
+
+/* メインの各セクションの上下余白を統一する。 */
+main > section:not(.hero),main > #network.section,main > #region.section,.hero-inner{padding-block:16px}
+
+/* 見出し幅に合わせ、残りを説明文に割り当てる。 */
+.about-enset{grid-template-columns:max-content minmax(0,1fr);column-gap:2em}
+
+/* ネットワークと地域連携も見出し幅に合わせる。 */
+#network .section-heading,#region .section-heading{grid-template-columns:max-content minmax(0,1fr);column-gap:2em}
+@media(max-width:650px){#network .section-heading,#region .section-heading{grid-template-columns:minmax(0,1fr);gap:8px}}
+
+/* 連携団体のボックス内の上下余白。 */
+#region .regional-partner-list article,#region .region-grid article{padding-block:8px}
+
+/* 半導体コア人材ページの詳細。 */
+.core-section-heading h2{margin:6px 0;font-size:30px}
+.core-section-heading>p:not(.eyebrow),.core-network p:not(.eyebrow){color:var(--muted)}
+.core-figure{margin:12px auto 0;max-width:850px}
+.core-figure img{display:block;width:100%;height:auto}
+.core-figure figcaption{margin-top:6px;color:var(--muted);font-size:12px;text-align:right}
+.core-figure a,.core-network a{color:var(--blue);text-underline-offset:3px}
+.core-skills,.core-future{background:var(--paper)}
+.core-skill-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:12px}
+.core-skill-grid article{background:#fff;border-top:3px solid var(--blue);padding:12px}
+.core-skill-grid h3{font-size:17px;margin:0 0 6px}
+.core-skill-grid p{color:var(--muted);font-size:15px;margin:0}
+.core-network p:not(.eyebrow){max-width:950px}
+.core-network a{font-weight:700}
+.core-fields{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:12px 0 0}
+.core-fields li{padding:8px 12px;background:#fff;color:var(--navy);border-left:3px solid var(--blue);font-weight:700}
+@media(max-width:650px){.core-skill-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.core-figure figcaption{text-align:left}}
+/* 半導体システム人材ページの詳細。 */
+.system-practice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+.system-practice-grid article,.system-topic-grid article{padding:12px;background:#fff;border-top:3px solid #bf4a36}
+.system-practice-grid h3,.system-topic-grid h3{font-size:17px;margin:0 0 6px}
+.system-practice-grid p,.system-topic-grid p{color:var(--muted);margin:6px 0}
+.system-practice-grid figure{margin:10px 0 0}
+.system-practice-grid img{display:block;width:100%;height:auto}
+.system-practice-grid figcaption{color:var(--muted);font-size:12px;margin-top:4px}
+.system-practice,.system-skills{background:var(--paper)}
+.system-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:12px}
+.system-topic-grid article{background:var(--paper)}
+.system-example{font-size:15px}
+.system-source a{color:var(--blue);text-underline-offset:3px}
+.system-skills .core-skill-grid article{border-color:#bf4a36}
+.system-future .core-fields li{background:var(--paper);border-color:#bf4a36}
+@media(max-width:650px){.system-practice-grid,.system-topic-grid{grid-template-columns:minmax(0,1fr)}}
+
+.closing-links{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+
+/* 関連情報を地域連携と同じ白背景・左右配置に揃える。 */
+.closing{background:#fff;color:var(--ink)}
+.closing .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;align-items:start}
+.closing h2{margin:0;font-size:30px}
+.closing a{margin:0;color:#164b85;font-size:15px;text-underline-offset:3px}
+.closing a:hover{color:#087346}
+@media(max-width:650px){.closing .wrap{grid-template-columns:minmax(0,1fr);gap:8px}}
+
+/* 関連情報を地域連携と同じ枠付きボックスにする。 */
+.closing .closing-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;align-items:stretch}
+.closing .closing-links article{min-height:0;padding:8px 16px}
+@media(max-width:650px){.closing .closing-links article{padding:8px 12px}}
+
+/* システム人材の実習例を同じセクション内にまとめる。 */
+.system-practice .system-topic-grid article{background:#fff}
+
+/* 半導体設計実習の図中の日付表記を表示しない。 */
+.system-design-image{position:relative}
+.system-design-image::after{content:'';position:absolute;right:0;bottom:0;width:54%;height:11%;background:#fff}
+
+/* コア人材の実習紹介をシステム人材ページと揃える。 */
+.core-visual{background:var(--paper)}
+
+/* 紹介資料に掲載された実習・施設の図と写真。 */
+.system-topic-grid figure{margin:10px 0 0}
+.system-topic-grid img,.material-grid img{display:block;width:100%;height:auto}
+.system-topic-grid figcaption,.material-grid figcaption{margin-top:4px;color:var(--muted);font-size:12px}
+.core-material:nth-of-type(even){background:var(--paper)}
+.material-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px;align-items:start}
+.material-grid figure{margin:0;background:#fff}
+@media(max-width:650px){.material-grid{grid-template-columns:minmax(0,1fr)}}
+/* システム人材の取組を紹介資料と同じ左右の列に配置する。 */
+.system-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px;align-items:start}
+.system-column{display:grid;gap:12px}
+.system-column article{padding:12px;background:#fff;border-top:3px solid #bf4a36}
+.system-column h3{font-size:17px;margin:0 0 6px}
+.system-column p{color:var(--muted);margin:6px 0}
+.system-column figure{margin:10px 0 0}
+.system-column img{display:block;width:100%;height:auto}
+.system-column figcaption{color:var(--muted);font-size:12px;margin-top:4px}
+.material-grid .core-figure{margin:0;max-width:none}
+@media(max-width:650px){.system-columns{grid-template-columns:minmax(0,1fr)}}
+/* 公式サイトの可変見出しに近い2段階の整数サイズ。 */
+@media(min-width:1000px){.about-enset h2,#network .section-heading h2,#region .section-heading h2,.closing h2,.core-section-heading h2,.detail-intro h2,.detail-learning h2,.detail-next h2{font-size:40px}}
